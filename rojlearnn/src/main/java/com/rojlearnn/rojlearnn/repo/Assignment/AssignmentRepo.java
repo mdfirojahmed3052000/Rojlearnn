@@ -10,6 +10,6 @@ public interface AssignmentRepo extends MongoRepository<Assignment, String> {
 
     Assignment findByCourseid(ObjectId objectId);
 
-	Object findById(ObjectId objectId);
+	//Object findById(ObjectId objectId);
 
 }

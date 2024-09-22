@@ -46,7 +46,9 @@ public class AssignmentService {
         return new ResponseEntity<>(ar.findAll(), HttpStatus.OK);
     }
 	public ResponseEntity<?> getAssignmentById(String id) {
-		return new ResponseEntity<>(ar.findById(id), HttpStatus.OK);
+        return null;
+
+		//return new ResponseEntity<>(ar.findById(id), HttpStatus.OK);
 	}
 	public ResponseEntity<?> updateAssignmentExamAdd(String id, Assignment assignment) {
 		// TODO Auto-generated method stub
